@@ -12,7 +12,10 @@
     "test": "env-cmd -f ./config/test.env jest --forceExit"
   },
   "keywords": [],
-  "author": "",
+  "author": "Can Toraman",
+  "engines": {
+    "node": "14.15.1"
+  },
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
