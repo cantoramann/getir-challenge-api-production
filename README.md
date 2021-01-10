@@ -27,6 +27,6 @@ Above data should be sent in JSON format.
 ## Testing
 In `package.json`, remove `env-cmd -f ./config/test.env` code from `test` script.
 
-In the root diretory, `npm run test` command will run 23 Jest-based tests that include input validation and query filter operations. All tests are written inside a single file names api.test.js 
+In the root diretory, `npm run test` command will run 23 Jest-based tests that include input validation and query filter operations. All tests are written inside a single file named api.test.js 
 
 Test folder exists in the root directory.
