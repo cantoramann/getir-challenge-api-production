@@ -5,7 +5,7 @@
 If you are not a tester, do not clone this repository. Server demo is up on https://toraman-getir-challenge.herokuapp.com/.
 
 If you are a tester:
-After, `npm start` or `npm run dev` command from the root will start the server on localhost. If you choose `npm run dev`, remove `env-cmd -f ./config/dev.env`code from `dev` script in `package.json`.
+After, `npm start` or `npm run dev` command from the root will start the server on localhost. If you choose `npm run dev`, remove `env-cmd -f ./config/dev.env` code from `dev` script in `package.json`.
 
 ## Endpoint
 `/api`: Post endpoint, to filter the data in the database (either from localhost or toraman-getir-challenge.herokuapp.com.
