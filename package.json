@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "env-cmd -f ./config/dev.env node src/server.js",
+    "start": "node src/server.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/server.js",
     "test": "env-cmd -f ./config/test.env jest --forceExit"
   },
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.10"
   },
